@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards-container{
+    width:98%;
+    height: 33%;
+    margin:1px;
+    padding:5px;
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.card{
+    height:100%;
+    box-shadow: 0px 0px 5px 2px rgb(223, 218, 218);
+    flex: 1;
+    border-radius: 10px;;
+}
+.card img{
+    max-width: 100%;
+    height: 100%;
+}
+.card:nth-of-type(2){
+    flex:1.2;
+}
+.card:nth-of-type(1){
+    background-size:100% ;
+    filter: contrast(40%) sepia(100%);
+}
+.card:nth-of-type(3){
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:30px 20px 20px 20px;
+}
+.card:nth-of-type(2){
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    padding:5px 20px 20px 20px;
+}
+.card:nth-of-type(3) div,.card:nth-of-type(2) div{
+    width:100%;
+    height: 25%;
+}
+.card:nth-of-type(3) div h4,.card:nth-of-type(2) div h4{
+    display:flex;
+    gap:10px;
+}
+.blue{
+    transform: rotate(180deg);
+    color:rgb(70, 70, 233);
+}
+#orange{
+    color: orange;
+}
+#green{
+    color:rgb(126, 194, 25);
+}
+
+.heighlet{
+    color: rgb(99, 99, 243);
+}
+.material-symbols-sharp,.file{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.file{
+    color: green;
+    transform: rotateX(180deg);
+}
+.purpel{
+    color: rgb(139, 85, 139);
+}
+i{
+    padding-left: 15px;
+    color: green;
+    font-size: 20px;
+}
+select{
+    color: rgb(99, 99, 243);
+    width:30%;
+    padding:0px 2px 0px 2px ;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: 35px;
+}
+.card:nth-of-type(3) div p,.card:nth-of-type(2) div p{
+    padding-left: 35px;
+}
+
+.button-shape{
+    position: relative;
+    color:orange;
+    border: 1px solid orange;
+    padding:2px 10px 2px 10px;
+    border-radius: 10px;
+    top:4px;
+    left:4px;
+    opacity: 60%;
+    font-size: 14px;
+}
+.button-shape2{
+    position: relative;
+    color:orange;
+    font-weight: bold;
+    padding:3px 10px 3px 10px;
+    border-radius: 10px;
+    top:0px;
+    background-color: rgb(238, 228, 210);
+    left:4px;
+    opacity: 60%;
+    font-size: 14px;
+}
+.red-line{
+    max-width: 90%;
+    display: flex;
+    margin-top: 10px;
+    margin:20px auto 0 auto;
+    gap:5px;
+}
+hr{
+    display: block;
+    width:25%;
+    background-color: rgb(197, 11, 11);
+    border: none;
+    border-radius: 10px;
+    height: 60%;
+}
+.extra-padding{
+position: relative;
+top:5px
+}
+.footer1{
+    position: absolute;
+    top: 31%;
+    right:20px;
+    font-size: 14px;
+}
+.footer2{
+    position: absolute;
+    top: 64.5%;
+    right:20px;
+    font-size: 14px;
+}
+.footer3{
+    position: absolute;
+    top: 97.5%;
+    right:20px;
+    font-size: 14px;
+}
