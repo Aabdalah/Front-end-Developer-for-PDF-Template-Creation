@@ -14,12 +14,10 @@ body{
 .cards-container{
     width:98%;
     height: 33%;
-    margin:1px;
-    padding:5px;
     display:flex;
     justify-content: space-evenly;
-    gap:10px;
-    margin-bottom: 20px;
+    gap:1px;
+    padding:5px;
 }
 .card{
     height:100%;
@@ -28,7 +26,8 @@ body{
     border-radius: 10px;;
 }
 .card img{
-    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
     height: 100%;
 }
 .card:nth-of-type(2){
@@ -132,6 +131,7 @@ select{
     margin-top: 10px;
     margin:20px auto 0 auto;
     gap:5px;
+    margin-bottom: 10px;
 }
 hr{
     display: block;
@@ -147,19 +147,19 @@ top:5px
 }
 .footer1{
     position: absolute;
-    top: 31%;
-    right:20px;
+    top: 30%;
+    right:25px;
     font-size: 14px;
 }
 .footer2{
     position: absolute;
-    top: 64.5%;
-    right:20px;
+    top: 63%;
+    right:25px;
     font-size: 14px;
 }
 .footer3{
     position: absolute;
-    top: 97.5%;
-    right:20px;
+    top: 96%;
+    right:25px;
     font-size: 14px;
 }
